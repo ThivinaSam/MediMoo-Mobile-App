@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab Test 02</string>
+    <string name="btnHome">Home</string>
+    <string name="btnSearch">Search</string>
+    <string name="btnStats">Stats</string>
+    <string name="btnProfile">Profile</string>
+    <string name="greetingTextHome">Hello Saman</string>
+    <string name="secondGreetingText">How do you feel  today?</string>
+</resources>
