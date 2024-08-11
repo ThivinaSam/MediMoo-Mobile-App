@@ -19,10 +19,16 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
+            android:id="@+id/scrollView2"
             android:layout_width="412dp"
             android:layout_height="605dp"
             android:background="@color/dominant_color"
-            tools:layout_editor_absoluteY="126dp">
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -64,25 +70,6 @@
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
-
-        <FrameLayout
-            android:layout_width="412dp"
-            android:layout_height="605dp"
-            android:background="@color/dominant_color"
-            android:visibility="invisible"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
-        </FrameLayout>
 
         <TextView
             android:id="@+id/greetingTextHome"
