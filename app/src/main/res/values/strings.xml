@@ -6,4 +6,20 @@
     <string name="btnProfile">Profile</string>
     <string name="greetingTextHome">Hello Saman</string>
     <string name="secondGreetingText">How do you feel  today?</string>
+    <string name="btnMedicine">Medicine</string>
+    <string name="btnCheckUp">Check Up</string>
+    <string name="btnHealthTips">Health Tips</string>
+    <string name="btnHealthStore">Health Store</string>
+    <string name="yourAppoinment">Your Appoinment</string>
+    <string name="drName">Dr.Kumara Dasanayaka</string>
+    <string name="dateTime">Friday, 2 August 2024 - 10:99 A.M.</string>
+    <string name="hosVenue">Hemas Hospital, Wattala</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="medi">Medi</string>
+    <string name="moo">Moo</string>
+    <string name="forgetPwd">Forget Password?</string>
+    <string name="dontHvAcc">Do not have an account?</string>
+    <string name="signUp">Sign Up</string>
 </resources>
