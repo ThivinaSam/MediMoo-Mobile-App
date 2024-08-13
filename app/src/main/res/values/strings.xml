@@ -22,4 +22,14 @@
     <string name="forgetPwd">Forget Password?</string>
     <string name="dontHvAcc">Do not have an account?</string>
     <string name="signUp">Sign Up</string>
+    <string name="yourStatus">Your Status</string>
+    <string name="clinicDetails">Clinic Details</string>
+    <string name="clinicHistory">Clinic History</string>
+    <string name="tdyMedicPlan">Today Medication Plan</string>
+    <string name="tmrMedicPlan">Tomorrow Medication Plan</string>
+    <string name="levothyroxine">LEVOTHYROXINE</string>
+    <string name="euthyrox25mg">Euthyrox 25mg</string>
+    <string name="afterBreakfast">After Breakfast</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
 </resources>

@@ -133,13 +133,13 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -206,13 +206,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -279,13 +279,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -352,13 +352,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -425,13 +425,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -498,13 +498,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -571,13 +571,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -644,13 +644,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -717,13 +717,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -790,13 +790,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -863,13 +863,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -936,13 +936,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
-            android:background="#00BA2828"
-            android:backgroundTint="#00FFFFFF">
+            android:background="@color/dominant_color"
+            android:backgroundTint="@color/dominant_color">
 
           <androidx.constraintlayout.widget.ConstraintLayout
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#00FFFFFF">
+              android:background="@color/dominant_color">
 
             <ImageView
                 android:id="@+id/imageView3"

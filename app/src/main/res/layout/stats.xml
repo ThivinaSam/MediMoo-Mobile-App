@@ -10,20 +10,91 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/secondary_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <View
             android:id="@+id/top_view"
-            android:layout_width="393dp"
-            android:layout_height="652dp"
+            android:layout_width="394dp"
+            android:layout_height="696dp"
+            android:layout_marginTop="88dp"
             android:background="@drawable/search_view"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/yourStatus"
+            android:textColor="@color/dominant_color"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="393dp"
+            android:layout_height="179dp"
+            android:layout_marginTop="104dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="172dp"
+                android:layout_height="143dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_43" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="172dp"
+                android:layout_height="143dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_44" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/clinicDetails"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/imageButton"
+                app:layout_constraintTop_toTopOf="@+id/imageButton" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/clinicHistory"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+                app:layout_constraintStart_toStartOf="@+id/imageButton2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -72,6 +143,548 @@
                 android:text="@string/btnProfile"
                 android:textColor="@color/secondary_color" />
         </LinearLayout>
+
+        <ScrollView
+            android:layout_width="396dp"
+            android:layout_height="367dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/dominant_color">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/tdyMedicPlan"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="117dp"
+                            android:layout_height="87dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="40dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/_3577179461726279_1" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="44dp"
+                            android:layout_marginEnd="120dp"
+                            android:text="@string/levothyroxine"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="160dp"
+                            android:text="@string/euthyrox25mg"
+                            android:textColor="#7E7E7E"
+                            android:textSize="10sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="148dp"
+                            android:text="@string/afterBreakfast"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginBottom="-2dp"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="@string/skip"
+                            android:textColor="@color/accent_color"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView15"
+                            app:strokeColor="@color/accent_color"
+                            app:strokeWidth="1sp" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="-2dp"
+                            android:backgroundTint="@color/accent_color"
+                            android:text="@string/done"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/button" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    app:cardBackgroundColor="@color/dominant_color">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="134dp"
+                        app:cardBackgroundColor="@color/dominant_color">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="8dp"
+                                android:text="@string/tmrMedicPlan"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/imageView15"
+                                android:layout_width="117dp"
+                                android:layout_height="87dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="40dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/_3577179461726279_1" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="44dp"
+                                android:layout_marginEnd="120dp"
+                                android:text="@string/levothyroxine"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="160dp"
+                                android:text="@string/euthyrox25mg"
+                                android:textColor="#7E7E7E"
+                                android:textSize="10sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="148dp"
+                                android:text="@string/afterBreakfast"
+                                android:textSize="12sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                            <Button
+                                android:id="@+id/button"
+                                android:layout_width="70dp"
+                                android:layout_height="31dp"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginBottom="2dp"
+                                android:backgroundTint="#00FFFFFF"
+                                android:text="@string/skip"
+                                android:textColor="@color/accent_color"
+                                android:textSize="8sp"
+                                app:cornerRadius="15px"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/imageView15"
+                                app:strokeColor="@color/accent_color"
+                                app:strokeWidth="1sp" />
+
+                            <Button
+                                android:id="@+id/button2"
+                                android:layout_width="70dp"
+                                android:layout_height="31dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginBottom="2dp"
+                                android:backgroundTint="@color/accent_color"
+                                android:text="@string/done"
+                                android:textSize="8sp"
+                                app:cornerRadius="15px"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/button" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/tdyMedicPlan"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="117dp"
+                            android:layout_height="87dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="40dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/_3577179461726279_1" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="44dp"
+                            android:layout_marginEnd="120dp"
+                            android:text="@string/levothyroxine"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="160dp"
+                            android:text="@string/euthyrox25mg"
+                            android:textColor="#7E7E7E"
+                            android:textSize="10sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="148dp"
+                            android:text="@string/afterBreakfast"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginBottom="2dp"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="@string/skip"
+                            android:textColor="@color/accent_color"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView15"
+                            app:strokeColor="@color/accent_color"
+                            app:strokeWidth="1sp" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:backgroundTint="@color/accent_color"
+                            android:text="@string/done"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/button" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/dominant_color">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="117dp"
+                            android:layout_height="87dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="16dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/_3577179461726279_1" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="120dp"
+                            android:text="@string/levothyroxine"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="160dp"
+                            android:text="@string/euthyrox25mg"
+                            android:textColor="#7E7E7E"
+                            android:textSize="10sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="148dp"
+                            android:text="@string/afterBreakfast"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginBottom="2dp"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="@string/skip"
+                            android:textColor="@color/accent_color"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView15"
+                            app:strokeColor="@color/accent_color"
+                            app:strokeWidth="1sp" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:backgroundTint="@color/accent_color"
+                            android:text="@string/done"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/button" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/dominant_color">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="117dp"
+                            android:layout_height="87dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="16dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/_3577179461726279_1" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="120dp"
+                            android:text="@string/levothyroxine"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="160dp"
+                            android:text="@string/euthyrox25mg"
+                            android:textColor="#7E7E7E"
+                            android:textSize="10sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="148dp"
+                            android:text="@string/afterBreakfast"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginBottom="2dp"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="@string/skip"
+                            android:textColor="@color/accent_color"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView15"
+                            app:strokeColor="@color/accent_color"
+                            app:strokeWidth="1sp" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:backgroundTint="@color/accent_color"
+                            android:text="@string/done"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/button" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardBackgroundColor="@color/dominant_color">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="117dp"
+                            android:layout_height="87dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="16dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/_3577179461726279_1" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="120dp"
+                            android:text="@string/levothyroxine"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="160dp"
+                            android:text="@string/euthyrox25mg"
+                            android:textColor="#7E7E7E"
+                            android:textSize="10sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="148dp"
+                            android:text="@string/afterBreakfast"
+                            android:textSize="12sp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginBottom="2dp"
+                            android:backgroundTint="#00FFFFFF"
+                            android:text="@string/skip"
+                            android:textColor="@color/accent_color"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView15"
+                            app:strokeColor="@color/accent_color"
+                            app:strokeWidth="1sp" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="70dp"
+                            android:layout_height="31dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:backgroundTint="@color/accent_color"
+                            android:text="@string/done"
+                            android:textSize="8sp"
+                            app:cornerRadius="15px"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/button" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
