@@ -115,9 +115,9 @@
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="62dp"
+                android:layout_width="64dp"
                 android:layout_height="31dp"
-                android:layout_marginStart="164dp"
+                android:layout_marginStart="163.5dp"
                 android:backgroundTint="#00FFFFFF"
                 android:text="@string/btnEdit"
                 android:textColor="@color/dominant_color"
