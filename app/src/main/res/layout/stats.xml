@@ -20,8 +20,8 @@
 
         <View
             android:id="@+id/top_view"
-            android:layout_width="394dp"
-            android:layout_height="696dp"
+            android:layout_width="397dp"
+            android:layout_height="715dp"
             android:layout_marginTop="88dp"
             android:background="@drawable/search_view"
             app:layout_constraintEnd_toEndOf="parent"

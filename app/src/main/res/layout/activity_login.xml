@@ -16,8 +16,8 @@
 
         <View
             android:id="@+id/sign"
-            android:layout_width="392dp"
-            android:layout_height="478dp"
+            android:layout_width="395dp"
+            android:layout_height="491dp"
             android:layout_marginTop="308dp"
             android:background="@drawable/search_view"
             app:layout_constraintEnd_toEndOf="parent"
