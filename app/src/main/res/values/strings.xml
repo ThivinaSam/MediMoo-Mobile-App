@@ -32,4 +32,12 @@
     <string name="afterBreakfast">After Breakfast</string>
     <string name="skip">Skip</string>
     <string name="done">Done</string>
+    <string name="profileName">Saman Kahawala</string>
+    <string name="profileAge">67 Years</string>
+    <string name="btnEdit">Edit</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="contactNum">Contact Number</string>
 </resources>
