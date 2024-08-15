@@ -5,12 +5,14 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
-class Home : AppCompatActivity() {
+class Medicine : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        enableEdgeToEdge()
-        setContentView(R.layout.home)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_medicine)
 
         val btnNavigateSearch: Button = findViewById(R.id.btnSearch)
         btnNavigateSearch.setOnClickListener {
@@ -27,10 +29,16 @@ class Home : AppCompatActivity() {
             val intent = Intent(this, Profile::class.java)
             startActivity(intent)
         }
-        val btnNavigateMedicine: Button = findViewById(R.id.btnMedicine)
-        btnNavigateMedicine.setOnClickListener {
-            val intent = Intent(this, Medicine::class.java)
+        val btnNavigateHome: Button = findViewById(R.id.btnHome)
+        btnNavigateHome.setOnClickListener {
+            val intent = Intent(this, Home::class.java)
             startActivity(intent)
+        }
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
         }
     }
 }
