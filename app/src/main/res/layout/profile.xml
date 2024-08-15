@@ -23,6 +23,7 @@
             android:layout_height="534dp"
             android:layout_marginTop="264dp"
             android:background="@drawable/search_view"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,27 +79,32 @@
             android:id="@+id/constraintLayout4"
             android:layout_width="395dp"
             android:layout_height="707dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.012">
 
             <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="124dp"
-                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.028"
                 app:srcCompat="@drawable/profile_photo" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="80dp"
                 android:text="@string/profileName"
                 android:textColor="@color/dominant_color"
                 android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView16" />
 
@@ -106,10 +112,10 @@
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="168dp"
                 android:layout_marginTop="4dp"
                 android:text="@string/profileAge"
                 android:textColor="@color/dominant_color"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -117,14 +123,17 @@
                 android:id="@+id/button3"
                 android:layout_width="64dp"
                 android:layout_height="31dp"
-                android:layout_marginStart="163.5dp"
                 android:backgroundTint="#00FFFFFF"
                 android:text="@string/btnEdit"
                 android:textColor="@color/dominant_color"
                 android:textSize="8sp"
                 app:cornerRadius="15px"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView14"
+                app:layout_constraintVertical_bias="0.0"
                 app:strokeColor="@color/dominant_color"
                 app:strokeWidth="1dp" />
 
@@ -143,11 +152,11 @@
                 android:id="@+id/editTextText3"
                 android:layout_width="338dp"
                 android:layout_height="45dp"
-                android:layout_marginStart="25dp"
                 android:ems="10"
                 android:hint="Saman Kahawala"
                 android:inputType="text"
                 android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -166,11 +175,11 @@
                 android:id="@+id/editTextText4"
                 android:layout_width="338dp"
                 android:layout_height="45dp"
-                android:layout_marginStart="25dp"
                 android:ems="10"
                 android:hint="samankahawala@hotmail.com"
                 android:inputType="text"
                 android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -189,11 +198,11 @@
                 android:id="@+id/editTextText5"
                 android:layout_width="338dp"
                 android:layout_height="45dp"
-                android:layout_marginStart="25dp"
                 android:ems="10"
                 android:hint="Male"
                 android:inputType="text"
                 android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -211,11 +220,11 @@
                 android:id="@+id/editTextText6"
                 android:layout_width="338dp"
                 android:layout_height="45dp"
-                android:layout_marginStart="25dp"
                 android:ems="10"
                 android:hint="0775635984"
                 android:inputType="text"
                 android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -233,11 +242,11 @@
                 android:id="@+id/editTextText7"
                 android:layout_width="338dp"
                 android:layout_height="45dp"
-                android:layout_marginStart="25dp"
                 android:ems="10"
                 android:hint="0775689954"
                 android:inputType="text"
                 android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
