@@ -79,7 +79,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="368dp"
             android:ems="10"
-            android:hint="Enter Username..."
+            android:hint="@string/entrUsrname"
             android:inputType="text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -103,7 +103,7 @@
             android:layout_marginStart="28dp"
             android:layout_marginTop="456dp"
             android:ems="10"
-            android:hint="Enter Password..."
+            android:hint="@string/entrPsswrd"
             android:inputType="text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

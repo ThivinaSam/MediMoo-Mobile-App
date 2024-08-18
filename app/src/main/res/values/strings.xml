@@ -41,4 +41,12 @@
     <string name="gender">Gender</string>
     <string name="contactNum">Contact Number</string>
     <string name="medicine">Medicine</string>
+    <string name="entrUsrname">Enter username...</string>
+    <string name="entrPsswrd">Enter password...</string>
+    <string name="entrYrNmHre">Enter your name here...</string>
+    <string name="entrYrEmlHre">Enter your email here...</string>
+    <string name="entrYrUsnmHre">Enter your username here...</string>
+    <string name="entrYrPsswdHre">Enter your password here...</string>
+    <string name="reEntrPsswdHr">Re-enter your password here...</string>
+    <string name="iAccptTrms">I accept terms and conditions</string>
 </resources>
